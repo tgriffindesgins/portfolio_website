@@ -1,0 +1,41 @@
+.navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+/*hover color*/
+.active {
+  background-color: #5d5663;
+}
+/*Page background color*/
+body {background-color: #5d5663;}
+
+/*Formatting for navbar list*/
+ul {
+  list-style-type: none;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* makes links black when hovered over*/
+li a:hover {
+  background-color: #111;
+}
+
+/*                               */
